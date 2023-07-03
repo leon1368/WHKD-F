@@ -1,0 +1,7 @@
+.logLinkCon {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}

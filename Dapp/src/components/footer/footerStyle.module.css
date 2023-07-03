@@ -1,0 +1,15 @@
+.footer {
+  /* width: 100%; */
+  color: #fff;
+  padding: 2% 10% 5%;
+  background-color: #293147;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*  小型设备（平板电脑，768px 起） */
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}
