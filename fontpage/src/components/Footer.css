@@ -1,0 +1,33 @@
+.footer {
+  color: #fff;
+  margin-top: 10%;
+  padding: 5% 10% 13%;
+  background-color: #293147;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 3vw;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 4.5rem;
+    padding: 3rem 2rem 5rem;
+    background-color: #293147;
+    display: flex;
+    /* gap: 0.5rem; */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer-title {
+  }
+  .img-link {
+    width: 1.8rem;
+  }
+  .log-link-con {
+    padding-top: 0.8rem;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("./fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+.introduce-big {
+  padding: 16vw 0vw 15vw;
+  background-size: cover;
+  background-image: url("./img/HongKongView.jpg");
+  /* background-image: url("./img/colorfuBluePink.jpg"); */
+}
+
+.br-contianer {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 2.5vw;
+}
+
+.br1 {
+  font-weight: 600;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 5vw;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.sign10 {
+  font-weight: 600;
+  /* color: rgb(83, 223, 236); */
+  /* color: rgb(88, 118, 240); */
+  color: #3396ff;
+  font-style: italic;
+}
+
+.br2 {
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.br2-2 {
+  font-size: 1.3vw;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.br3 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  line-height: 1.5;
+}
+
+.introduce-btn1,
+.introduce-btn2 {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  padding: 1rem 5rem;
+  color: #fff;
+  border-radius: 0.7vw;
+  border: 0;
+  text-decoration: none;
+}
+.introduce-text {
+  font-weight: 600;
+  font-family: "Inter-SemiBold", sans-serif;
+}
+.introduce-btn1 {
+  background-color: #3396ff;
+}
+
+.introduce-btn2 {
+  background-color: #3396ff;
+}
+.introduce-btn1:hover {
+  color: #fff;
+  background-color: #3289e5;
+  transition: all 0.5s ease-in-out;
+}
+.introduce-btn2:hover {
+  color: #fff;
+  background-color: #3289e5;
+  transition: all 0.5s ease-in-out;
+}
+.log-link-con {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+.img-link {
+  width: 2vw;
+}
+/*  小型设备（平板电脑，768px 起） */
+@media screen and (max-width: 768px) {
+  .introduce-big {
+    background-image: url("./img/colorfulBule.jpg");
+    padding: 10rem 0vw 15vw;
+    background-color: #fff;
+  }
+
+  .br1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .br2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .br2-2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .br3 {
+    display: grid;
+    grid-template-rows: auto auto;
+
+    justify-content: center;
+    gap: 0;
+  }
+
+  .introduce-btn1,
+  .introduce-btn2 {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 5rem;
+    color: #fff;
+    border-radius: 8px;
+    border: 0;
+    text-decoration: none;
+  }
+}

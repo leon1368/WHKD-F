@@ -1,0 +1,11 @@
+.footerWHKDIcon {
+  display: flex;
+
+  font-size: 1.5vw;
+}
+/*  小型设备（平板电脑，768px 起） */
+@media screen and (max-width: 768px) {
+  .footerWHKDIcon {
+    font-size: 1.2rem;
+  }
+}

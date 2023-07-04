@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./fonts/static/Inter-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.Navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  overflow-x: hidden;
+  position: fixed;
+
+  background-color: #293147;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.nav {
+  padding: 0 3vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 3vw;
+}
+.mobile-menu {
+  display: none;
+}
+.nav-icon {
+  display: flex;
+  font-size: 3vw;
+}
+.nav-icon-t {
+  padding: 8px 0;
+  align-self: center;
+  justify-self: center;
+}
+.nav-in {
+  font-size: 1.2vw;
+  display: flex;
+  gap: 2.5vw;
+  align-items: center;
+}
+
+.n1,
+.n2,
+.n3,
+.n4 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.n1:hover,
+.n2:hover,
+.n3:hover,
+.n4:hover {
+  color: #3396ff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-wallet {
+  display: flex;
+  gap: 3vw;
+}
+
+.connect-btn {
+  background-color: #3396ff;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2vw;
+  padding: 0.6vw 1vw;
+  color: #fff;
+  border-radius: 15px;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+}
+.connect-btn:hover {
+  background-color: #3289e5;
+  transition: all 0.3s ease-in-out;
+  color: rgb(155, 175, 255);
+}
+.connect-btn:focus {
+  outline: none;
+}
+/*  小型设备（平板电脑，768px 起） */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 1rem 1rem 1rem;
+    gap: 0rem;
+  }
+  .navss {
+    display: none;
+  }
+  .nav-icon {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .connect-btn {
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .connect-btn-t1 {
+    display: none;
+  }
+  .connect-btn-t2 {
+    align-self: center;
+    justify-self: center;
+  }
+  .mobile-menu {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .mobile-menu:focus {
+    outline: none;
+  }
+  .mobile-menu-list {
+    border-top: 1px solid rgb(182, 182, 182);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    gap: 1rem;
+    background-color: #293147;
+  }
+  .mobile-menu-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-icon-t {
+    padding: 0;
+  }
+}
