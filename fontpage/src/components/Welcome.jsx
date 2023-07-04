@@ -15,7 +15,11 @@ const Welcome = () => {
             <p className="introduce-text">WHKD</p>
           </a>
 
-          <a href="#LINKFAQ" className="introduce-btn2 navss n1">
+          <a
+            href="https://wrapped-hkd-document.gitbook.io/wrapped-hkd-docs/"
+            className="introduce-btn2 navss n1"
+            target="_blank"
+          >
             <p className="introduce-text">Learn</p>
             <p className="introduce-text">more</p>
           </a>

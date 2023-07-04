@@ -30,14 +30,37 @@ const Navbar = () => {
           </p>
         </div>
         <div className="nav-in">
-          <a href="#LINKFAQ" className="navss n1">
+          {/* <a href="#LINKFAQ" className="navss n1">
             FAQ
-          </a>
-          <a href="#" className="navss n3">
+          </a> */}
+          <a
+            href="https://wrapped-hkd-document.gitbook.io/wrapped-hkd-docs/"
+            className="navss n3"
+            target="_blank"
+          >
             Docs
           </a>
-          <a href="#" className="navss n3">
-            Community
+
+          <a
+            className="navss n3"
+            href="https://twitter.com/Wrapped_HKD"
+            target="_blank"
+          >
+            Twitter
+          </a>
+          <a
+            className="navss n3"
+            href="https://discord.gg/CFXQFcVEpn"
+            target="_blank"
+          >
+            Discord
+          </a>
+          <a
+            className="navss n3"
+            href="https://t.me/Wrapped_HKD_Official_channel"
+            target="_blank"
+          >
+            Telegram
           </a>
 
           <div className="nav-wallet">
@@ -51,20 +74,31 @@ const Navbar = () => {
       {showMenu && (
         <div>
           <div className="mobile-menu-list ">
-            <a className="mobile-menu-link" href="">
-              FAQ
-            </a>
-
-            <a className="mobile-menu-link" href="">
+            <a
+              className="mobile-menu-link"
+              href="https://wrapped-hkd-document.gitbook.io/wrapped-hkd-docs/"
+            >
               Docs
             </a>
 
-            <a className="mobile-menu-link" href="">
+            <a
+              className="mobile-menu-link"
+              href="https://twitter.com/Wrapped_HKD"
+            >
               Twitter
             </a>
 
-            <a className="mobile-menu-link" href="">
+            <a
+              className="mobile-menu-link"
+              href="https://discord.gg/CFXQFcVEpn"
+            >
               Discord
+            </a>
+            <a
+              className="mobile-menu-link"
+              href="https://t.me/Wrapped_HKD_Official_channel"
+            >
+              Telegram
             </a>
           </div>
         </div>
